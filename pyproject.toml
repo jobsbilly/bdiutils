@@ -1,0 +1,13 @@
+[project]
+name = "bdiutils"
+dynamic = ["version"]
+classifiers = [
+    "Private :: Do Not Upload",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.dynamic]
+version = {attr = "bdiutils.__version__"}
