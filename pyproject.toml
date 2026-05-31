@@ -9,6 +9,13 @@ dependencies = [
     "pytz>=2025.2",
 ]
 
+[project.optional-dependencies]
+colab = [
+    "ipython>=7.34.0",
+    "pandas>=2.2.2",
+    "requests>=2.32.4",
+]
+
 [build-system]
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
